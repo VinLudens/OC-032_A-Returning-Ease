@@ -3,6 +3,7 @@
 
 global = {
   \time 4/4
+  \tempo "Andantino" 4 = 80
 }
 
 %{
