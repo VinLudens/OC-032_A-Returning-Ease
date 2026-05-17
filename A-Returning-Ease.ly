@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 
 date = #(strftime "%B %d %Y" (localtime (current-time)))
 \header {

@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.26.0"
 \include "global.ly"
 
 crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
