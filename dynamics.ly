@@ -1,20 +1,26 @@
 \version "2.26.0"
 \include "global.ly"
 
-crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
-#(make-dynamic-script (markup #:normal-text #:italic "cresc. poco a poco"))
-
-rit = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
-#(make-dynamic-script (markup #:normal-text #:italic "rit."))
-
-rall = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
-#(make-dynamic-script (markup #:normal-text #:italic "rall."))
 
 dynamics = {
   \global
   % allow text in the dynamics block to be centered vertically
   % \override TextScript.extra-offset = #'(0 . 1)
 
-  s
+  s1*8 |
+  \time 6/8
+  s2.*4 |
+  \time 4/4
+  s1*6 |
+  \time 6/8
+  s2.*4 |
+  \time 4/4
+  s1*15 |
+  \time 23/16
+  s16*23*4 |
+  \time 6/8
+  s2.*3 |
+  \time 4/4
+  s1*8 |
 
 }
