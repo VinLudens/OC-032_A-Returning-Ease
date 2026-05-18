@@ -171,8 +171,8 @@ left = \relative c {
   <<
     {
       \voiceTwo \change Staff = "right"
-      r2 f'''''='''16 des ees c des bes c aes |
-      bes f aes ees f des ees c des bes <f=' aes>8 ~ 4 |
+      r2 f'''''='''16-1 des-3 ees-2 c-4 des-1 bes-3 c-1 aes-3 |
+      bes-2 f-4 aes-2 ees-4 f-1 des-3 ees-2 c-4 des-1 bes-2 <f='_5 aes_3>8 ~ 4 |
     }
     \new Voice \relative c,, {
       \oneVoice

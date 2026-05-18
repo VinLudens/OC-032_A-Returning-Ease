@@ -171,8 +171,8 @@ right = \relative c'' {
 
 
 
-  <f= aes des>2\) \clef "treble" \voiceOne \ottava 1 c''''=''''16 aes bes f aes ees f des |
-  ees c des bes c aes bes f aes ees <des f>8 ~ 4 |
+  <f= aes des>2\) \clef "treble" \voiceOne \ottava 1 c''''=''''16-5 aes-2 bes-3 f-1 aes-4 ees-2 f-4 des-2 |
+  ees-3 c-1 des-4 bes-2 c-4 aes-2 bes-3 f-1 aes-2 ees-3 <des^1 f^3>8 ~ 4 |
 
 
 
