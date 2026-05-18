@@ -1,9 +1,0 @@
-*.pdf
-*.ps
-*.midi
-*.mid
-*.mp3
-*.log
-*~
-.direnv
-result
