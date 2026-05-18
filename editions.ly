@@ -29,7 +29,9 @@ accel = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod dynamics 17 0/4 music.Dynamics \mf
 
 \editionMod dynamics 19 0/8 music.Dynamics \p
-\editionMod dynamics 19 0/8 music.Voice.A ^\markup{\italic "subito meno mosso, stringendo poco a poco"}
+\editionMod dynamics 19 0/8 music.Voice.A ^\markup{\italic \override #'(baseline-skip . 0) \column{ "subito meno mosso," "stringendo poco a poco" }}
+
+\editionMod tweaks 31 1/4 music.Voice.A \shape #'(() ((0 . 0) (0 . 0) (0 . 0) (0 . -2))) PhrasingSlur
 
 \editionMod dynamics 21 0/8 music.Dynamics \mf
 
@@ -56,7 +58,7 @@ accel = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod dynamics 42 0/4 music.Dynamics \f
 \editionMod dynamics 42 0/4 music.Dynamics \<
-\editionMod dynamics 42 0/4 music.Voice.A ^\markup{\italic "poco meno mosso, stringendo"}
+\editionMod dynamics 42 0/4 music.Voice.A ^\markup{\italic { "poco meno mosso, stringendo" }}
 
 \editionMod dynamics 45 1/4 music.Voice.A ^\atempo
 \editionMod dynamics 45 0/4 music.Dynamics \sfz
